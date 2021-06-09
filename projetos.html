@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Projetos dos Alunos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/modBootstrap.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <div id="bg"></div>
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+          <img
+            class="logo"
+            src="imagens/marca-etec.svg"
+            alt="Logo da Etec Carapicuíba"
+          />
+        </a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Alterna navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto d-lg-flex">
+            <a class="nav-item nav-link ml-auto" href="projetos.html">
+              Projetos
+            </a>
+            <a class="nav-item nav-link ml-auto" href="sobre.html"
+              >Sobre o Curso</a
+            >
+            <a
+              class="nav-item nav-link ml-auto"
+              href="http://www.eteccarapicuiba.com.br/"
+              target="_blank"
+              >Etec Carapicuíba</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div class="row">
+          <div class="col-md-8">
+            <section id="projetos">
+              <h1>animacao Multimídia</h1>
+              <h2>2º Módulo da Tarde</h2>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button
+                  type="button"
+                  class="btn btn-secondary todos ativo"
+                  onclick="filtraCategoria('todos')"
+                >
+                  Todos
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary animacao"
+                  onclick="filtraCategoria('animacao')"
+                >
+                  Animação
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary motion"
+                  onclick="filtraCategoria('motion')"
+                >
+                  Motion
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary outros"
+                  onclick="filtraCategoria('outro')"
+                >
+                  Outros
+                </button>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="motion"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Motion Design</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="animacao"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Animação</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="outro"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Outro</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="motion"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Motion Design</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="animacao"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Animação</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="motion"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Motion Design</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="outro"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Outro</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="animacao"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Animação</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="motion"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Motion Design</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="outro"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Outro</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="motion"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Motion Design</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="animacao"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Animação</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="outro"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Outro</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="motion"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Motion Design</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-sm-12 col-md-4 my-4 d-flex align-items-stretch"
+            id="animacao"
+          >
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="imagens/card.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título do Projeto - Animação</h5>
+                <p class="card-text">
+                  Uma breve descrição do projeto com os pontos de maior
+                  relevância para futuros alunos e pais desses alunos.
+                </p>
+                <a href="projetoExemplo.html" class="btn btn-primary"
+                  >Detalhes do projeto</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/exibeProjetos.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+$colors: (
+  primary: #ffcc00,
+  primary-light: lighten(#ffcc00, 40%),
+  primary-dark: darken(#ffcc00, 40%),
+  secondary: #b72409,
+  secondary-dark: darken(#b72409, 10%),
+  spotlight: #e49602,
+  spotlight-dark: #b72409,
+);
+
+@function cor($cor-nome) {
+  @return map-get($colors, $cor-nome);
+}
+
+.btn-primary {
+  background-color: cor(secondary);
+  border-color: cor(secondary);
+  transform: translate(-50%, 0);
+  margin-left: 50%;
+}
+.btn-primary:hover {
+  background-color: cor(spotlight);
+  border-color: cor(spotlight);
+  color: #000000;
+}
+
+.btn-secondary {
+  background-color: cor(spotlight);
+  border-color: cor(spotlight);
+}
+.btn-secondary:hover {
+  background-color: cor(spotlight-dark);
+  border-color: cor(spotlight-dark);
+}
+.badge-primary {
+  background-color: cor(secondary);
+  border-color: cor(secondary);
+  font-weight: normal;
+}
+.form-control:focus {
+  border-color: cor(secondary);
+  box-shadow: 0 0 0 0.2rem rgba(183, 36, 9, 0.25);
+}
+.card {
+  -webkit-box-shadow: 2px 3px 15px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 3px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-light {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navbar {
+  padding: 0.5rem 0;
+}

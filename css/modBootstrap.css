@@ -1,0 +1,50 @@
+.btn-primary {
+  background-color: #b72409;
+  border-color: #b72409;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  margin-left: 50%;
+}
+
+.btn-primary:hover {
+  background-color: #e49602;
+  border-color: #e49602;
+  color: #000000;
+}
+
+.btn-secondary {
+  background-color: #e49602;
+  border-color: #e49602;
+}
+
+.btn-secondary:hover {
+  background-color: #b72409;
+  border-color: #b72409;
+}
+
+.badge-primary {
+  background-color: #b72409;
+  border-color: #b72409;
+  font-weight: normal;
+}
+
+.form-control:focus {
+  border-color: #b72409;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(183, 36, 9, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(183, 36, 9, 0.25);
+}
+
+.card {
+  -webkit-box-shadow: 2px 3px 15px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 3px 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-light {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navbar {
+  padding: 0.5rem 0;
+}
+/*# sourceMappingURL=modBootstrap.css.map */
