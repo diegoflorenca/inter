@@ -1,4 +1,6 @@
-let arquivoJSON = '../db/projetos.json';
+
+// let arquivoJSON = '../db/projetos.json'; // Local
+let arquivoJSON = 'https://diegoflorenca.github.io/inter/db/projetos.json'; // GitHub
 let requisicao = new XMLHttpRequest();
 
 requisicao.open('GET', arquivoJSON);
