@@ -27,7 +27,7 @@ const criaCards = (projetos) => {
   
   const img = document.createElement('img');
   img.classList.add('card-img-top');
-  img.setAttribute('src', `../imagens/${projetos.imagem}`);
+  img.setAttribute('src', `./imagens/${projetos.imagem}`);
   divCard.append(img);
 
   const cardBody = document.createElement('div');
