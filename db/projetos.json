@@ -1,3 +1,4 @@
+[
   {
     "id": 1,
     "titulo": "Projeto 1",
@@ -5,21 +6,57 @@
     "categoria": "animacao",
     "descricaoBreve": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit.",
     "decricaoCompleta": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit.",
-  "integrantes": [
-    {
-      "nome": "Malaika Jimenez",
-      "Funcao": "Diretora",
-      "redes": {"instagram":"@mjimenez", "facebook": "http://facebook.com/malaikajimenez"}
-    },
-    {
-      "nome": "Riccardo Shannon",
-      "Funcao": "Animador 3D",
-      "redes": {"instagram":"@riccardoshannon", "facebook": "http://facebook.com/riccardoshannon"}
-    },
-    {
-      "nome": "Priscilla William",
-      "Funcao": "",
-      "redes": {"instagram":"@priwill", "facebook": "http://facebook.com/priscillawilliam"}
-    }
-  ]
-}
+    "integrantes": [
+      {
+        "nome": "Malaika Jimenez",
+        "Funcao": "Diretora",
+        "redes": {
+          "instagram": "@mjimenez",
+          "facebook": "http://facebook.com/malaikajimenez"
+        }
+      },
+      {
+        "nome": "Riccardo Shannon",
+        "Funcao": "Animador 3D",
+        "redes": {
+          "instagram": "@riccardoshannon",
+          "facebook": "http://facebook.com/riccardoshannon"
+        }
+      },
+      {
+        "nome": "Priscilla William",
+        "Funcao": "",
+        "redes": {
+          "instagram": "@priwill",
+          "facebook": "http://facebook.com/priscillawilliam"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Projeto 2",
+    "imagem": "card.jpg",
+    "categoria": "motion",
+    "descricaoBreve": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit.",
+    "decricaoCompleta": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit.",
+    "integrantes": [
+      {
+        "nome": "Malaika Jimenez",
+        "Funcao": "Diretora",
+        "redes": {
+          "instagram": "@mjimenez",
+          "facebook": "http://facebook.com/malaikajimenez"
+        }
+      },
+      {
+        "nome": "Priscilla William",
+        "Funcao": "",
+        "redes": {
+          "instagram": "@priwill",
+          "facebook": "http://facebook.com/priscillawilliam"
+        }
+      }
+    ]
+  }
+]
