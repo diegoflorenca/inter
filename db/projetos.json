@@ -1,11 +1,12 @@
 [
   {
     "id": 1,
-    "titulo": "Projeto 1",
+    "titulo": "Projeto 1 - Animação",
     "imagem": "card.jpg",
     "categoria": "animacao",
     "descricaoBreve": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit.",
     "decricaoCompleta": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit.",
+    "vimeoLink": "https://player.vimeo.com/video/562762225?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     "integrantes": [
       {
         "nome": "Malaika Jimenez",
@@ -35,11 +36,39 @@
   },
   {
     "id": 2,
-    "titulo": "Projeto 2",
+    "titulo": "Projeto 2 - Motion",
     "imagem": "card.jpg",
     "categoria": "motion",
     "descricaoBreve": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit.",
     "decricaoCompleta": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit.",
+    "vimeoLink": "https://player.vimeo.com/video/562762225?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+    "integrantes": [
+      {
+        "nome": "Malaika Jimenez",
+        "Funcao": "Diretora",
+        "redes": {
+          "instagram": "@mjimenez",
+          "facebook": "http://facebook.com/malaikajimenez"
+        }
+      },
+      {
+        "nome": "Priscilla William",
+        "Funcao": "",
+        "redes": {
+          "instagram": "@priwill",
+          "facebook": "http://facebook.com/priscillawilliam"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Projeto 3 - Outro",
+    "imagem": "card.jpg",
+    "categoria": "outros",
+    "descricaoBreve": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit.",
+    "decricaoCompleta": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dignissimos dolorem voluptatibus tempore quasi laborum ut ipsam est dolor maxime et accusamus corrupti ad qui aut, nulla, voluptate deleniti ratione delectus a debitis excepturi velit.",
+    "vimeoLink": "https://player.vimeo.com/video/562762225?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
     "integrantes": [
       {
         "nome": "Malaika Jimenez",

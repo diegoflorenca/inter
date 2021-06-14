@@ -59,29 +59,33 @@
               <div class="btn-group" role="group" aria-label="Basic example">
                 <button
                   type="button"
-                  class="btn btn-secondary todos ativo"
-                  onclick="filtraCategoria('todos')"
+                  id="todos"
+                  class="btn btn-secondary filtro ativo"
+                  onclick="filtraProjetos('todos')"
                 >
                   Todos
                 </button>
                 <button
                   type="button"
-                  class="btn btn-secondary animacao"
-                  onclick="filtraCategoria('animacao')"
+                  id="animacao"
+                  class="btn btn-secondary filtro"
+                  onclick="filtraProjetos('animacao')"
                 >
                   Animação
                 </button>
                 <button
                   type="button"
-                  class="btn btn-secondary motion"
-                  onclick="filtraCategoria('motion')"
+                  id="motion"
+                  class="btn btn-secondary filtro"
+                  onclick="filtraProjetos('motion')"
                 >
                   Motion
                 </button>
                 <button
                   type="button"
-                  class="btn btn-secondary outros"
-                  onclick="filtraCategoria('outro')"
+                  id="outros"
+                  class="btn btn-secondary filtro"
+                  onclick="filtraProjetos('outros')"
                 >
                   Outros
                 </button>
@@ -89,12 +93,15 @@
             </section>
           </div>
         </div>
-        <div class="row cartoes"></div>
+        <div class="row cartoes">
+          <!-- Todos dos projetos são carregados automaticamente pelo JavaScript usando o arquivo JSON -->
+        </div>
       </main>
     </div>
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/cria-cards.js"></script>
+    <script src="js/filtra-projetos.js"></script>
   </body>
 </html>

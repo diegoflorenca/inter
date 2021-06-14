@@ -1,5 +1,5 @@
-let arquivoJSON = '../db/projetos.json'; // Local
-// let arquivoJSON = 'https://diegoflorenca.github.io/inter/db/projetos.json'; // GitHub
+// let arquivoJSON = '../db/projetos.json'; // Local
+let arquivoJSON = 'https://diegoflorenca.github.io/inter/db/projetos.json'; // GitHub
 let requisicao = new XMLHttpRequest();
 
 requisicao.open('GET', arquivoJSON);
@@ -46,7 +46,7 @@ const criaCards = (projetos) => {
     cardBody.append(cardText);
 
     const link = document.createElement('a');
-    link.setAttribute('href', `./projetoExemplo.html?id=${projeto.id}`);
+    link.setAttribute('href', `./projeto.html?id=${projeto.id}`);
     link.className = 'btn btn-primary';
     const textoLink = document.createTextNode('Veja o projeto');
     link.append(textoLink);
