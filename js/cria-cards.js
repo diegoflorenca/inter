@@ -16,7 +16,8 @@ const divCartoes = document.querySelector('.cartoes');
 const criaCards = (projetos) => {
   projetos.forEach((projeto) => {
     const div = document.createElement('div');
-    div.className = 'col-sm-12 col-md-4 my-4 d-flex align-items-stretch';
+    div.className =
+      'col-sm-12 col-md-4 my-4 d-flex align-items-stretch projeto-inter';
     div.id = projeto.categoria;
     divCartoes.append(div);
 
