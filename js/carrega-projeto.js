@@ -56,25 +56,23 @@ const carregaProjeto = (projeto) => {
 
     let todasRedes = '';
 
-    console.log(integrante.redes);
-
     if (integrante.redes.instagram) {
       todasRedes += `<a class='redes-icons' href='https://www.instagram.com/${integrante.redes.instagram}'>
-      <img src='../imagens/icons/instagram-square-brands.svg'
+      <img src='./imagens/icons/instagram-square-brands.svg'
       alt='Logo do instagram'>
       </a>`;
     }
 
     if (integrante.redes.facebook) {
       todasRedes += `<a class='redes-icons' href='https://www.facebook.com/${integrante.redes.facebook}'>
-      <img src='../imagens/icons/facebook-square-brands.svg'
+      <img src='./imagens/icons/facebook-square-brands.svg'
       alt='Logo do facebook'>
       </a>`;
     }
 
     if (integrante.redes.twitter) {
       todasRedes += `<a class='redes-icons' href='https://www.twitter.com/${integrante.redes.twitter}'>
-      <img src='../imagens/icons/twitter-square-brands.svg'
+      <img src='./imagens/icons/twitter-square-brands.svg'
       alt='Logo do twitter'>
       </a>`;
     }
