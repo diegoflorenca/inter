@@ -5,3 +5,13 @@
 </div>
 
 <script src="https://player.vimeo.com/api/player.js"></script>
+
+Youtube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FvlqdHJv2So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+Youtube Bootstrap
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+</div>

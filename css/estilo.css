@@ -145,7 +145,32 @@ main section#primary a:hover {
   font-size: 0.8rem;
 }
 
+.sobre p {
+  margin: 1rem;
+  line-height: 2rem;
+  text-align: left;
+}
+
 .esconde {
   display: none !important;
+}
+
+.redes-icons > img {
+  max-width: 2rem;
+  margin: 0 1rem;
+  color: red;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.redes-icons:hover {
+  text-decoration: none;
+}
+
+.redes-icons:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
 }
 /*# sourceMappingURL=estilo.css.map */

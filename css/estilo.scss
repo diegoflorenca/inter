@@ -157,8 +157,32 @@ main {
   h5 {
     font-size: 0.8rem;
   }
+
+  p {
+    margin: 1rem;
+    line-height: 2rem;
+    text-align: left;
+  }
 }
 
 .esconde {
   display: none !important;
+}
+
+.redes-icons {
+  > img {
+    max-width: 2rem;
+    margin: 0 1rem;
+    color: red;
+    transition: 200ms;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+  }
 }

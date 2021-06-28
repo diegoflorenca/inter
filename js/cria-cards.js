@@ -1,4 +1,4 @@
-// let arquivoJSON = '../db/projetos.json'; // Local
+//let arquivoJSON = '../db/projetos.json'; // Local
 let arquivoJSON = 'https://diegoflorenca.github.io/inter/db/projetos.json'; // GitHub
 let requisicao = new XMLHttpRequest();
 
@@ -28,6 +28,7 @@ const criaCards = (projetos) => {
     const img = document.createElement('img');
     img.classList.add('card-img-top');
     img.setAttribute('src', `./imagens/${projeto.imagem}`);
+    img.setAttribute('alt', `Imagem do protejo ${projeto.titulo}`);
     divCard.append(img);
 
     const cardBody = document.createElement('div');
